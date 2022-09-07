@@ -1,0 +1,20 @@
+* {
+    font-family: Arial;
+    background-color: #5f5f5f;
+}
+
+body { 
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}

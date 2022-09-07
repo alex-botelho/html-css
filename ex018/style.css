@@ -1,0 +1,51 @@
+* {
+    font-family: Arial;
+    background-color: #a687c4;
+}
+
+h1 {
+    color: #4B225C;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #4B225C;
+    color: #fff;
+    padding: 10px;
+}
+
+h2 {
+    color: #803A9C;
+}
+
+p {
+    text-align: justify;
+}
+
+.basico {
+    color: #59a225;
+}
+
+.intermediario {
+    color: #b7b02f;
+}
+
+.avancado {
+    color: #9c3a3a;
+}
+
+.test > p {
+    display: none;
+}
+
+.test:hover > p {
+    display: block;
+    color: #fff;
+    background-color: #000;
+}
+
+.test:hover {
+    color: red;
+    transition: 350ms;
+}
+
