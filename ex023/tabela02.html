@@ -13,6 +13,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+            margin: auto;
         }
 
         caption {
@@ -25,6 +27,13 @@
         th, td {
             border: 2px solid black;
             padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+            border: 2px solid #000;
         }
 
         thead, tfoot {
@@ -43,7 +52,7 @@
     </style>
 </head>
 <body>
-    <h1>Tabelas Grandes</h1>
+    <h1 style="text-align: center;">Tabelas Grandes</h1>
 
     <!--ANATOMIA PARA TABELAS GRANDES
         TABLE
