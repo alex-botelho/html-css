@@ -1,0 +1,6 @@
+iframe {
+    height: 400px;
+    width: 400px;
+    border: 3px solid #aa00ff;
+    border-radius: 8px;
+}
